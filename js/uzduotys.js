@@ -1,0 +1,102 @@
+/*KINTAMUJU INICIAVIMAS*/
+
+//Pirmoji uzduotis
+
+const pirmasSkaicius = 1;
+console.log(pirmasSkaicius);
+
+const antrasSkaicius = 2;
+console.log(antrasSkaicius);
+
+const treciasSkaicius = 3;
+console.log(treciasSkaicius);
+
+//Antroji uzduotis
+
+const feline = 'kate';
+console.log(feline);
+
+const canine = "suo";
+console.log(canine);
+
+const homoSapien = 'zmogus';
+console.log(homoSapien);
+
+//Trecioji uzduotis
+
+const zitosPazymiai = [4, 5, 8, 9, 10];
+console.log(zitosPazymiai);
+
+const martynoPazymiai = [10, 7, 9, 8, 10];
+console.log(martynoPazymiai);
+
+const vaidosPazymiai = [7, 8, 6, 9, 7];
+console.log(vaidosPazymiai);
+
+//Ketvirtoji uzduotis
+
+const salys = ['Amerika, Kanada, Indija, Rusija, Kinija'];
+console.log(salys);
+
+const miestai = ["Vilnius, Tokijas, Milnas, Paryzius, Londonas"];
+console.log(miestai);
+
+const kaulai = ['slaunikaulis, dubinkaulis, sonkaulis, blauzdikaulis, zastikaulis']
+console.log(kaulai);
+
+
+/*VEIKSMAI SU KINTAMAISIAIS*/
+
+//Pirmoji uzduotis
+
+const suma = pirmasSkaicius + antrasSkaicius + treciasSkaicius;
+console.log(suma);
+
+//Antroji uzduotis
+
+const tekstas = feline + ' ' + canine + ' ' + homoSapien;
+
+console.log(tekstas);
+//Trecioji uzduotis
+
+let suma1 = 0;
+suma1 = suma1 + zitosPazymiai [0];
+suma1 = suma1 - zitosPazymiai [1];
+suma1 = suma1 + zitosPazymiai [2];
+suma1 = suma1 - zitosPazymiai [3];
+suma1 = suma1 + zitosPazymiai [4];
+console.log(suma1);
+
+//Geresnis budas
+// 
+
+let suma2 = 0;
+suma2 = suma2 + martynoPazymiai [0];
+suma2 = suma2 - martynoPazymiai [1];
+suma2 = suma2 + martynoPazymiai [2];
+suma2 = suma2 - martynoPazymiai [3];
+suma2 = suma2 + martynoPazymiai [4];
+console.log(suma2);
+
+let suma3 = 0;
+suma3 = suma3 + vaidosPazymiai [0];
+suma3 = suma3 - vaidosPazymiai [1];
+suma3 = suma3 + vaidosPazymiai [2];
+suma3 = suma3 - vaidosPazymiai [3];
+suma3 = suma3 + vaidosPazymiai [4];
+console.log(suma3);
+
+//Ketvirtoji uzduotis
+
+/*const salys = ['Amerika, Kanada, Indija, Rusija, Kinija'];
+console.log(salys);
+
+const kaulai = ['slaunikaulis, dubinkaulis, sonkaulis, blauzdikaulis, zastikaulis']
+console.log(kaulai);
+*/
+
+//Pirmas variantas
+let allSalys = '';
+
+allSalys = allSalys + salys[0];
+console.log(allSalys);
