@@ -100,3 +100,4 @@ let allSalys = '';
 
 allSalys = allSalys + salys[0];
 console.log(allSalys);
+
