@@ -35,7 +35,7 @@ console.log(vaidosPazymiai);
 
 //Ketvirtoji uzduotis
 
-const salys = ['Amerika, Kanada, Indija, Rusija, Kinija'];
+const salys = ['Amerika', 'Kanada', 'Indija', 'Rusija', 'Kinija'];
 console.log(salys);
 
 const miestai = ["Vilnius, Tokijas, Milnas, Paryzius, Londonas"];
@@ -96,8 +96,17 @@ console.log(kaulai);
 */
 
 //Pirmas variantas
-let allSalys = '';
+/*let allSalys = '';
 
 allSalys = allSalys + salys[0];
 console.log(allSalys);
+*/
+let allSalys = '';
 
+allSalys = allSalys + salys[0];
+allSalys = allSalys + ', ' + salys[1];
+allSalys = allSalys + ', ' + salys[2];
+allSalys = allSalys + ', ' + salys[3];
+allSalys = allSalys + ', ' + salys[4];
+
+console.log(allSalys);

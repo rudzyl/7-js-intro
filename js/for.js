@@ -80,8 +80,8 @@ console.log(text.length);
 
 console.log('-----------------');
 
-/*kaip spausdinti kas antra simboli su ciklu?
-*/
+/*kaip spausdinti kas antra simboli su ciklu?*/
+
 
 const zodis = 'pomidoras';
 const step = 2;
@@ -94,8 +94,6 @@ for (let i = pirmosRaidesPozicija; i<zodis.length; i = i + step) {
 }
 
 console.log(rez);
-
-
 
 
 

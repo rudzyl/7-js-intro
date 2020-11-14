@@ -4,13 +4,13 @@
 //naudotini:<, >, >=, <=, ===, !==
 //nenaudotini: ==, !=
 
-/*
+
 Galimos strukturos:
 if () {}
 if () {} else {}
 if () {} else if {} ...  else if {}
 if () {} else if {} ...  else if {} else {}
-*/
+
 
 const accountBalance = 100;
 const transfer = 200;
@@ -89,3 +89,5 @@ Ciklo funkcijos
 Funkcijos
 Event lisner'iai
 */
+
+
