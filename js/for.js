@@ -68,7 +68,6 @@ console.log(abc[pozicija]);
 
 }
 
-console.clear();
 
 const text = 'ka tu?';
 

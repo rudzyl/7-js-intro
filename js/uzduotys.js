@@ -110,3 +110,178 @@ allSalys = allSalys + ', ' + salys[3];
 allSalys = allSalys + ', ' + salys[4];
 
 console.log(allSalys);
+
+console.log('--------------------------------------');
+
+// namu darbai 2020.11.15
+const skaicius1 = 10;
+const skaicius2 = 5;
+
+//if pirma uzduotis
+
+if (skaicius1 > skaicius2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (skaicius1 < skaicius2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (skaicius1 === skaicius2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (skaicius1 !== skaicius2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (skaicius1 >= skaicius2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (skaicius1 <= skaicius2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+console.log('--------------------------------');
+
+//if antra uzduotis
+
+const zodis1 = 'galva';
+const zodis2 = 'uodaga';
+
+if (zodis1 > zodis2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (zodis1 < zodis2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (zodis1 === zodis2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (zodis1 !== zodis2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (zodis1 >= zodis2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (zodis1 <= zodis2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+console.log('----------------------------------------');
+
+//if trecia tas pats? nesupratau ar gerai darau..
+
+const raides = ['a', 'b', 'c', 'd', 'e', 'f'];
+const skaitmenys = [1, 2, 3];
+
+if (raides.length > skaitmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (raides.length < skaitmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (raides.length === skaitmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (raides.length !== skaitmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (raides.length >= skaitmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (raides.length <= skaitmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+console.log('------------------------------');
+
+// for pirma uzduotis kaip parasyti jog tik vienas skaicius butu?
+
+const nuo = 0;
+const iki = 0;
+let sum = 0;
+
+for (let nuo = 0; nuo <= iki ; nuo++) {
+    sum = sum + nuo;
+    console.log(nuo);
+}
+
+const nuo1 = 0;
+const iki1 = 4;
+let sum1 = 0;
+
+for (let nuo1 = 0; nuo1 <= iki1 ; nuo1++) {
+    sum1 = sum1 + nuo1;
+    console.log(sum1);
+}
+
+console.log('---------------------');
+
+
+//for antra uzduotis
+
+const randomZodis = 'abcdef';
+
+for(let i = randomZodis.length - 1; i >= 0; i--) {
+    console.log(randomZodis[i]);
+
+}
+ 
+console.log('-----------------------------');
+
+//for trecia uzduotis
+
+const pirmiSkai = [0,1,2,3,4,5,6,7,8,9,10,11];
+
+for (let i = 0; i <= pirmiSkai.length; i++) {
+    console.log(i);
+
+}
