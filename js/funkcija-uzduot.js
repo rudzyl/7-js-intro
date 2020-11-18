@@ -134,6 +134,19 @@ console.log(isrinktiRaides('abcdefg', 2), '->', 'bdf');
 console.log(isrinktiRaides('abcdefghijkl', 3), '->', 'cfil');
 
 
+// dalyba, kaip suapvalinti skaiciu iki tam tikros vietos po kablelio
 
+function numComma (numberr, position) {
+    //return parseFloat(numberr.toFixed(position));
+    let ats = numberr;
+    ats = numberr * (10 ** position);
+    ats = Math.floor(ats);
+    ats /= 10 ** position;
 
+    return ats;
+}
 
+const num = 3.4567;
+const rez = numComma(num, 2);
+
+console.log(rez, '->' , 3.46);
