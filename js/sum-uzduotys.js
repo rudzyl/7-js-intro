@@ -142,3 +142,18 @@ for (let i = nuo; i < iki11 ; i++) {
 }
 console.log(`Skaičių intervale tarp ${nuo11} ir ${iki11}, besidalijančių be liekanos iš ${daliklis} yra ${kiekis} vienetai.`);
 
+const nuo12 = 8;
+const iki12 = 31;
+const daliklis1 = 3;
+
+let kiekis1 = 0;
+
+for (let i = nuo12; i <= iki12; i++) {
+    if (i % daliklis1 === 0) {
+        kiekis1++;
+    }
+
+}
+
+
+console.log(`Skaičių intervale tarp ${nuo12} ir ${iki12}, besidalijančių be liekanos iš ${daliklis1} yra ${kiekis1} vienetai.`);
