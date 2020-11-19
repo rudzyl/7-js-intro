@@ -97,6 +97,18 @@ for(let i = randomZodis.length - 1; i >= 0; i--) {
 
 }
 console.log( randomZodis, ' -> ' , back);
+
+
+const tekstas = 'redrum';
+let isGalo = '';
+
+for (let i = tekstas.length - 1; i >= 0; i--) {
+    const raide = tekstas[i];
+    isGalo = isGalo + raide;
+    console.log(i, raide);
+
+}
+console.log (tekstas, '->' , isGalo);
  
 console.log('-----------------------------');
 
