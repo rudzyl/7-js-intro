@@ -154,6 +154,32 @@ for (let i = nuo12; i <= iki12; i++) {
     }
 
 }
-
-
 console.log(`Skaičių intervale tarp ${nuo12} ir ${iki12}, besidalijančių be liekanos iš ${daliklis1} yra ${kiekis1} vienetai.`);
+
+const nuo13 = -18;
+const iki13 = 18;
+const daliklis3 = 3;
+
+let kiekis3 = 0;
+
+for (let i = nuo13; i <= iki13; i++) {
+    if (i % daliklis3 === 0) {
+        kiekis3++;
+    }
+}
+console.log(`Skaičių intervale tarp ${nuo13} ir ${iki13}, besidalijančių be liekanos iš ${daliklis3} yra ${kiekis3} vienetai.`);
+
+const nuo14 = -18;
+const iki14 = 18;
+const daliklis4 = 5;
+
+let kiekis4 = 0;
+
+for (let i = nuo14; i <= iki14; i++) {
+    if (i % daliklis4 === 0) {
+        kiekis4++;
+
+    }
+
+}
+console.log(`Skaičių intervale tarp ${nuo14} ir ${iki14}, besidalijančių be liekanos iš ${daliklis4} yra ${kiekis4} vienetai.`);
