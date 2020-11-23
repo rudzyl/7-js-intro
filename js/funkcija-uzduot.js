@@ -150,3 +150,56 @@ const num = 3.4567;
 const rez = numComma(num, 2);
 
 console.log(rez, '->' , 3.46);
+
+
+
+
+
+
+console.log('_____________________________________________');
+
+
+function pazymiuVidurkis(list) {
+    let sum = 0;
+    const kiekis = list.length;
+
+    for (let i = 0; i < kiekis; i++) {
+        sum = sum + list[i];
+    }
+
+    const vidurkis = sum / kiekis;
+
+    if (kiekis === 0) {
+        console.log('neturi pazymiu');
+    } else {
+        console.log(`Vidurkis: ${vidurkis}`);
+    }
+}
+pazymiuVidurkis ([5, 7, 8, 4, 6]);
+pazymiuVidurkis ([6, 6, 6, 6, 7]);
+pazymiuVidurkis ([]);
+pazymiuVidurkis ([2, 2, 2, 2, 2, 4]);
+
+function kvadratu(base) {
+    let pakelta = base * base;
+   // console.log(`${base} -> ${pakelta}`);
+
+   return pakelta
+}
+console.log (kvadratu(2));
+console.log (kvadratu(5));
+console.log (kvadratu(-2));
+
+function norimasLaipsnis (sk, laipsnis) {
+    let rez = 1;
+    for (let i = 0; i < laipsnis; i++) {
+        rez = rez * sk;
+    }
+    return rez;
+}
+const kubu = norimasLaipsnis(2, 3);
+console.log(kubu , '->' , 8);
+const du10 = norimasLaipsnis(2, 10);
+console.log(du10 , '->' , 1024);
+const minus = norimasLaipsnis(-5, 3);
+console.log(minus , '->' , 125);
